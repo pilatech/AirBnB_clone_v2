@@ -46,7 +46,7 @@ def is_number(n):
 def number_template(n):
     """Route handler for /number_template/<n> request"""
     if n.isnumeric():
-        return render_template('number.html', n=n)
+        return render_template('5-number.html', n=n)
     else:
         abort(404)
 
